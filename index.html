@@ -1,64 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Aman Aujla</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About Me</title>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|PT+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">Aman Aujla</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-            </li>
-        </ul>
-     </div>
-    </nav>
-
-    <header class="<div class="jumbotron">
-      <hr class="my-4">
-    </div>
-
-    <div class="container">
-      
-    
-    <div id="main-container" class="container">
-        <h1>About Me</h1>
-<div class="row">
-  
-<div class="col-3"> 
-<img class="img-fluid" src="https://img.freepik.com/free-photo/gold-glitter-powder-splash-background_3247-103.jpg?size=626&ext=jpg" alt="Pic1">
-</div>
-        <p class="col-9">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum, nulla consequat mollis pharetra, velit sem varius mi, ac finibus augue tortor vel magna. Sed molestie sollicitudin ornare. Proin ultricies ipsum id semper posuere. Donec et justo sed neque consectetur tincidunt vitae in ipsum. Sed nec nibh dapibus, porta orci vel, varius velit. In eu nisi id urna feugiat ullamcorper. Donec nulla ante, sodales ac faucibus in, ultrices at tortor. Sed at justo ac lectus cursus scelerisque. Donec eros nisl, ornare vestibulum dignissim non, volutpat ut dolor. Vestibulum molestie pretium tristique. Etiam venenatis tincidunt dapibus. Sed id ipsum interdum, tincidunt lacus sollicitudin, euismod enim. Etiam nec sapien in nunc pretium ultrices sed at sapien. Vestibulum consectetur id magna at fringilla. Sed ut euismod orci, ut lobortis eros.
-        </p>
+  <header class="Header">
+    <h1>Aman Aujla</h1>
+  </header>
+  <main>
+    <div class="navContainer">
+      <div class="row">
+        <div class="col-1 indentColumn"></div>
+        <div class="col-2" id="navSpan">
+          <h1>Aman Aujla</h1>
+        </div>
+        <div class="col-9">
+          <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <section id="largeLayout" class="Main">
+        <div class="row">
+          <div class="col-1 indentColumn"></div>
+          <div class="col-auto noLeft">
+            <div class="container" id="AboutContainer">
+              <h1 class="SubjectTitle">About</h1>
+              <hr id="titleLine">
+              <div id="largeLayout" class="row">
+                <div class="col-auto">
+                  <img src="./assets/images/AboutMe.png" width="150px" height="150px" class="img-fluid" alt="Profile Picture">
+                </div>
+                <div class="col">
+                  <p class="wordRap">
+                    Thank you for visiting my page. I am currently working as a CRM Analyst. I am a student at KU Bootcamp learning to code. I am also enrolled in the masters program at UCMO majoring in Technology.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-  
+      <section id="smallLayout">
+        <div class="row">
+          <div class="col-1 indentColumn"></div>
+          <div class="col-auto noLeft">
+            <div class="container" id="AboutContainer">
+              <h1 class="SubjectTitle">About</h1>
+              <hr id="titleLine">
+              <div class="card" style="width: 12rem;">
+                <img class="card-img-top" src="./assets/images/AboutMe.png" alt="Profile Picture">
+                <div class="card-body">
+                  <p class="card-text" id="smallLayoutParagraph">
+                    Thank you for visiting my page. I am currently working as a CRM Analyst. I am a student at KU Bootcamp learning to code. I am also enrolled in the masters program at UCMO majoring in Technology.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-</div>
+  </main>
 
+</body>
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Bootstrap JavaScript CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
